@@ -11,8 +11,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	kubeversion "k8s.io/apimachinery/pkg/util/version"
 
-	"github.com/yxxhero/kooper/log"
-	wraptime "github.com/yxxhero/kooper/wrapper/time"
+	"github.com/szlabs/kooper/log"
+	wraptime "github.com/szlabs/kooper/wrapper/time"
 	"k8s.io/utils/pointer"
 )
 

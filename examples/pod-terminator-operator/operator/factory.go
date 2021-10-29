@@ -1,13 +1,13 @@
 package operator
 
 import (
-	"github.com/yxxhero/kooper/client/crd"
-	"github.com/yxxhero/kooper/operator"
-	"github.com/yxxhero/kooper/operator/controller"
+	"github.com/szlabs/kooper/client/crd"
+	"github.com/szlabs/kooper/operator"
+	"github.com/szlabs/kooper/operator/controller"
 	"k8s.io/client-go/kubernetes"
 
-	podtermk8scli "github.com/yxxhero/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned"
-	"github.com/yxxhero/kooper/examples/pod-terminator-operator/log"
+	podtermk8scli "github.com/szlabs/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned"
+	"github.com/szlabs/kooper/examples/pod-terminator-operator/log"
 )
 
 // New returns pod terminator operator.

@@ -19,9 +19,9 @@ import (
 	kubetesting "k8s.io/client-go/testing"
 	"k8s.io/utils/pointer"
 
-	"github.com/yxxhero/kooper/client/crd"
-	"github.com/yxxhero/kooper/log"
-	mtime "github.com/yxxhero/kooper/mocks/wrapper/time"
+	"github.com/szlabs/kooper/client/crd"
+	"github.com/szlabs/kooper/log"
+	mtime "github.com/szlabs/kooper/mocks/wrapper/time"
 )
 
 var (

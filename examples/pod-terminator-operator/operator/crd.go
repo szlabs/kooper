@@ -1,15 +1,15 @@
 package operator
 
 import (
-	"github.com/yxxhero/kooper/client/crd"
+	"github.com/szlabs/kooper/client/crd"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	chaosv1alpha1 "github.com/yxxhero/kooper/examples/pod-terminator-operator/apis/chaos/v1alpha1"
-	podtermk8scli "github.com/yxxhero/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned"
+	chaosv1alpha1 "github.com/szlabs/kooper/examples/pod-terminator-operator/apis/chaos/v1alpha1"
+	podtermk8scli "github.com/szlabs/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned"
 )
 
 // podTerminatorCRD is the crd pod terminator.

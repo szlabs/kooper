@@ -8,7 +8,7 @@ import (
 
 	"k8s.io/client-go/util/homedir"
 
-	"github.com/yxxhero/kooper/examples/pod-terminator-operator/operator"
+	"github.com/szlabs/kooper/examples/pod-terminator-operator/operator"
 )
 
 // Flags are the controller flags.

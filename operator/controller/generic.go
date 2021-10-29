@@ -14,11 +14,11 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/yxxhero/kooper/log"
-	"github.com/yxxhero/kooper/monitoring/metrics"
-	"github.com/yxxhero/kooper/operator/controller/leaderelection"
-	"github.com/yxxhero/kooper/operator/handler"
-	"github.com/yxxhero/kooper/operator/retrieve"
+	"github.com/szlabs/kooper/log"
+	"github.com/szlabs/kooper/monitoring/metrics"
+	"github.com/szlabs/kooper/operator/controller/leaderelection"
+	"github.com/szlabs/kooper/operator/handler"
+	"github.com/szlabs/kooper/operator/retrieve"
 )
 
 // Span tag and log keys.

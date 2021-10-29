@@ -18,12 +18,12 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/yxxhero/kooper/log"
-	"github.com/yxxhero/kooper/operator/controller"
-	"github.com/yxxhero/kooper/operator/handler"
-	"github.com/yxxhero/kooper/operator/retrieve"
-	"github.com/yxxhero/kooper/test/integration/helper/cli"
-	"github.com/yxxhero/kooper/test/integration/helper/prepare"
+	"github.com/szlabs/kooper/log"
+	"github.com/szlabs/kooper/operator/controller"
+	"github.com/szlabs/kooper/operator/handler"
+	"github.com/szlabs/kooper/operator/retrieve"
+	"github.com/szlabs/kooper/test/integration/helper/cli"
+	"github.com/szlabs/kooper/test/integration/helper/prepare"
 )
 
 // TestControllerHandleEvents will test the controller receives the resources list and watch

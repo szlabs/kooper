@@ -1,4 +1,4 @@
-module github.com/yxxhero/kooper
+module github.com/szlabs/kooper
 
 require (
 	github.com/Pallinder/go-randomdata v0.0.0-20180329154440-dab270d296c6
