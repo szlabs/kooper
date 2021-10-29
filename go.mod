@@ -19,4 +19,4 @@ require (
 	k8s.io/utils v0.0.0-20210819203725-bdf08cb9a70a
 )
 
-go 1.13
+go 1.16
